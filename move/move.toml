@@ -1,0 +1,11 @@
+[package]
+name = "pokemon"
+version = "0.0.0"
+ 
+[addresses]
+vivek = "0x7698e02a6d9981ca2baefc5c629b32ee55ec82f8db7551cbdcbc3182baf158e1"
+ 
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
